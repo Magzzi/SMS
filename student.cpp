@@ -106,15 +106,15 @@ int Student::getID() const {
 }
 
 string Student::getName() const {
-	return name;
+    return name;
 }
 
 string Student::getDepartment() const {
-	return department;
+    return department;
 }
 
 void Student::displayDetails() const {
-	cout << "||||| STUDENT INFORMATION |||||" << endl;
+    cout << "||||| STUDENT INFORMATION |||||" << endl;
     cout << "Name: " << name << endl;
     cout << "ID: " << idNum << endl;
     cout << "Department: " << department << endl;
